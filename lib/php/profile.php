@@ -4,7 +4,7 @@ session_start();
 
 // Connect to Redis
 $redis = new Redis();
-$redis->connect('localhost', 6379);
+$redis->connect('localhost', 27017);
 
 // Connect to MySQL
 $mysql = new mysqli("host", "username", "password", "database");
